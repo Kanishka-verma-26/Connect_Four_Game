@@ -1,0 +1,23 @@
+li{
+    font-size: 20px;
+    font-weight: bold;
+}
+.row img{
+    height: 400px;
+    width: 300px;
+}
+div img{
+
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+.display-4 {
+   font-family: 'WaltographRegular';
+   font-weight: normal;
+   font-style: normal;
+    font-size: 5em;
+}
