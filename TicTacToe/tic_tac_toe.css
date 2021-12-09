@@ -1,0 +1,19 @@
+td{
+align-self: center;
+    border:3px solid black;
+    height: 190px;
+    width: 200px;
+    text-align: center;
+    font-size: 120px;
+}
+body{
+    background-color: lightblue;
+    background-image: url("images.png");
+}
+table{
+    background-color: darkkhaki;
+}
+.jumbotron{
+        border:3px solid darkblue;
+
+}
