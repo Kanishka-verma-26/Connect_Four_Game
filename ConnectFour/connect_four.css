@@ -1,0 +1,16 @@
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+table button{
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  /*background-color: tan;*/
+  background-color: rgb(212, 172, 152);
+  margin: 1px;
+  border-radius: 25px;
+}
