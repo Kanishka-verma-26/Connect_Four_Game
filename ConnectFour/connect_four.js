@@ -99,9 +99,10 @@ $('table button').on('click',function (){
     var bottomAvail = chkBottom(col);
     changeColor(bottomAvail,col,currColor);
     if (horizontalWinChk() || verticalWinChk() || diagonalWinChk()){
-        $('h1').text("Congratulations! "+currName+", You have WON !")
+        $('h1').text("Congratulations! "+currName+", You have WON ! '\n' Refresh to RESTART ")
         $("h4").fadeOut("fast");
         $("h5").fadeOut("fast");
+        $("table").fadeOut(3000)
 
     }
     currentPlayer = currentPlayer * -1;
